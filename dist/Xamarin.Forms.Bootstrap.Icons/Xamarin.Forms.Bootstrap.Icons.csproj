@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
@@ -9,6 +9,9 @@
     <PackageTags>Xamarin.Forms, Bootstrap, Icons</PackageTags>
     <Authors>malexandersalazar</Authors>
     <Company />
+    <PackageProjectUrl>https://github.com/malexandersalazar/Xamarin.Forms.Bootstrap.Icons</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/malexandersalazar/Xamarin.Forms.Bootstrap.Icons</RepositoryUrl>
+    <Description>This project is an implementation of Bootstrap Icons for Xamarin.Forms.</Description>
   </PropertyGroup>
 
   <ItemGroup>

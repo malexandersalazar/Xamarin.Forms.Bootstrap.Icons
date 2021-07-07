@@ -4,7 +4,7 @@
 <img src="https://icons.getbootstrap.com/assets/img/icons-hero.png" alt="Bootstrap Icons">
 </center>
 
-This project is an implementation of [Bootstrap Icons][1] for Xamarin.Forms in C#.
+This project is an implementation of [Bootstrap Icons][1] for Xamarin.Forms.
 
 [1]: https://icons.getbootstrap.com/ "Bootstrap Icons"
 
