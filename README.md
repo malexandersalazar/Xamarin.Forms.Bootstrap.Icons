@@ -1,8 +1,6 @@
 # Xamarin.Forms.Bootstrap.Icons
 
-<center>
-<img src="https://icons.getbootstrap.com/assets/img/icons-hero.png" alt="Bootstrap Icons">
-</center>
+![alt text](cover.png "Bootstrap Icons")
 
 This project is an implementation of [Bootstrap Icons][1] for Xamarin.Forms.
 
@@ -23,11 +21,11 @@ Alternatively, Xamarin.Forms.Bootstrap.Icons can be installed as following:
 
 ### Package Manager
 
-> Install-Package Xamarin.Forms.Bootstrap.Icons -Version 1.5.0.0
+> Install-Package Xamarin.Forms.Bootstrap.Icons
 
 ### .NET CLI
 
-> dotnet add package Xamarin.Forms.Bootstrap.Icons --version 1.5.0.0
+> dotnet add package Xamarin.Forms.Bootstrap.Icons
 
 ## Usage
 

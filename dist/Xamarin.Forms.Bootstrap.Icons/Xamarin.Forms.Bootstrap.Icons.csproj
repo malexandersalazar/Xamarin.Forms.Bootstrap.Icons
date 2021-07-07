@@ -12,6 +12,8 @@
     <PackageProjectUrl>https://github.com/malexandersalazar/Xamarin.Forms.Bootstrap.Icons</PackageProjectUrl>
     <RepositoryUrl>https://github.com/malexandersalazar/Xamarin.Forms.Bootstrap.Icons</RepositoryUrl>
     <Description>This project is an implementation of Bootstrap Icons for Xamarin.Forms.</Description>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
   </PropertyGroup>
 
   <ItemGroup>
