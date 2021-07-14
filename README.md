@@ -1,6 +1,6 @@
 # Xamarin.Forms.Bootstrap.Icons
 
-![alt text](cover.png "Bootstrap Icons")
+![alt text](/images/cover.png "Bootstrap Icons")
 
 This project is an implementation of [Bootstrap Icons][1] for Xamarin.Forms.
 
@@ -27,11 +27,21 @@ Alternatively, Xamarin.Forms.Bootstrap.Icons can be installed as following:
 
 > dotnet add package Xamarin.Forms.Bootstrap.Icons
 
-## Usage
+## Getting Started
+
+If you're using XAML, you can add this namespace to your root node: `xmlns:bi="clr-namespace:Xamarin.Forms.Bootstrap.Icons;assembly=Xamarin.Forms.Bootstrap.Icons"`. I.e.:
 
 ```xml
-xmlns:bi="clr-namespace:Xamarin.Forms.Bootstrap.Icons;assembly=Xamarin.Forms.Bootstrap.Icons"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:bi="clr-namespace:Xamarin.Forms.Bootstrap.Icons;assembly=Xamarin.Forms.Bootstrap.Icons">
+
+<!-- The rest of your page here -->
+
+</ContentPage>
 ```
+
+After this, start using the features you're after.
 
 ```xml
 <FlyoutItem Title="Payments">
