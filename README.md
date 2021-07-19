@@ -44,7 +44,7 @@ If you're using XAML, you can add this namespace to your root node: `xmlns:bi="c
 After this, start using the features you're after.
 
 ```xml
-<FlyoutItem Title="Payments">
+<FlyoutItem>
     <FlyoutItem.Icon>
         <bi:IconSource Icon="CurrencyDollar" Size="24" Color="White"/>
     </FlyoutItem.Icon>
@@ -58,6 +58,21 @@ After this, start using the features you're after.
         <bi:IconSource Icon="Pencil" Size="24" Color="#28B1D0"/>
     </Image.Source>
 </Image>
+```
+
+```xml
+<FlyoutItem>
+    <ShellContent>
+        <ShellContent.Icon>
+            <bi:IconSource Icon="PinMap" Size="24"/>
+        </ShellContent.Icon>
+    </ShellContent>
+    <ShellContent>
+        <ShellContent.Icon>
+            <bi:IconSource Icon="ListStars" Size="24"/>
+        </ShellContent.Icon>
+    </ShellContent>
+</FlyoutItem>
 ```
 
 ## Prerequisites
