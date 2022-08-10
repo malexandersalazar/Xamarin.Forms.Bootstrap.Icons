@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>1.5.0</Version>
+    <Version>1.6.0</Version>
     <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <PackageIcon>icon.png</PackageIcon>
     <PackageIconUrl />
@@ -11,13 +11,13 @@
     <Company />
     <PackageProjectUrl>https://github.com/malexandersalazar/Xamarin.Forms.Bootstrap.Icons</PackageProjectUrl>
     <RepositoryUrl>https://github.com/malexandersalazar/Xamarin.Forms.Bootstrap.Icons</RepositoryUrl>
-    <Description>This project is an implementation of Bootstrap Icons for Xamarin.Forms.</Description>
+    <Description>This project is an implementation of Bootstrap Icons for Xamarin.Forms, updated for Bootstrap Icons 1.9.1</Description>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="bootstrap-icons.ttf" />
     <None Include="..\..\images\icon.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
@@ -26,10 +26,10 @@
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <EmbeddedResource Include="bootstrap-icons.ttf" />
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
   <ItemGroup>

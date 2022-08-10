@@ -2,7 +2,7 @@
 
 ![alt text](/images/cover.png "Bootstrap Icons")
 
-This project is an implementation of [Bootstrap Icons][1] for Xamarin.Forms.
+This project is an implementation of [Bootstrap Icons][1] for Xamarin.Forms, updated for Bootstrap Icons 1.9.1 to give access to over 400 additional icons.
 
 [1]: https://icons.getbootstrap.com/ "Bootstrap Icons"
 
