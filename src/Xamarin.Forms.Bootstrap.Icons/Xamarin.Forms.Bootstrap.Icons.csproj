@@ -18,6 +18,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="bootstrap-icons.1.9.1.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="bootstrap-icons.1.9.1.woff2" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Include="..\..\images\icon.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
