@@ -78,6 +78,8 @@ After this, start using the features you're after.
 
 ## Icons
 
+All supported icons can be found in the [Icon.cs](/src/Xamarin.Forms.Bootstrap.Icons/Icon.cs) file.
+
 ## Prerequisites
 
 * NETStandard.Library (>= 2.0.3)
