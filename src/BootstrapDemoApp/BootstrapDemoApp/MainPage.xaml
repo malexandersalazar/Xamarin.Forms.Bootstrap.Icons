@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BootstrapDemoApp.MainPage"
+             xmlns:bi="clr-namespace:Xamarin.Forms.Bootstrap.Icons;assembly=Xamarin.Forms.Bootstrap.Icons">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Xamarin.Forms.Bootstrap.Icons!" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <StackLayout Padding="30,24,30,0" Orientation="Vertical">
+            <Image>
+                <Image.Source>
+                    <bi:IconSource Icon="Z123" Size="24" Color="#28B1D0"/>
+                </Image.Source>
+            </Image>
+            <Image>
+                <Image.Source>
+                    <bi:IconSource Icon="Arrow90DegDown" Size="24" Color="#28B1D0"/>
+                </Image.Source>
+            </Image>
+            <Image>
+                <Image.Source>
+                    <bi:IconSource Icon="Grid1X2Fill" Size="24" Color="#28B1D0"/>
+                </Image.Source>
+            </Image>
+            <Image>
+                <Image.Source>
+                    <bi:IconSource Icon="Z0Square" Size="24" Color="#28B1D0"/>
+                </Image.Source>
+            </Image>
+            <Image>
+                <Image.Source>
+                    <bi:IconSource Icon="TelephoneInbound" Size="24" Color="#28B1D0"/>
+                </Image.Source>
+            </Image>
+            <Image>
+                <Image.Source>
+                    <bi:IconSource Icon="Umbrella" Size="24" Color="#28B1D0"/>
+                </Image.Source>
+            </Image>
+            <Image>
+                <Image.Source>
+                    <bi:IconSource Icon="Z1CircleFill" Size="24" Color="#28B1D0"/>
+                </Image.Source>
+            </Image>
+        </StackLayout>
+    </StackLayout>
+
+</ContentPage>

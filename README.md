@@ -4,14 +4,15 @@
 
 This project is an implementation of [Bootstrap Icons][1] for Xamarin.Forms.
 
-[1]: https://icons.getbootstrap.com/ "Bootstrap Icons"
-
 | Bootstrap Icon        | Web Font   |   Xamarin.Forms.Bootstrap.Icons |
 |:-----------------|:-------------------|--------------------:|
-| arrow-90deg-down | bi bi-arrow-90deg-down         |            **Arrow90degDown**  |
-| grid-1x2-fill | bi bi-grid-1x2-fill         |            **Grid1x2Fill**  |
+| 123 | bi bi-123        |            **Z123**  |
+| arrow-90deg-down | bi bi-arrow-90deg-down         |            **Arrow90DegDown**  |
+| grid-1x2-fill | bi bi-grid-1x2-fill         |            **Grid1X2Fill**  |
+| 0 square | bi bi-0-square        |            **Z0Square**  |
 | telephone-inbound | bi bi-telephone-inbound        |            **TelephoneInbound**  |
 | umbrella | bi bi-umbrella        |            **Umbrella**  |
+| 1 circle fill | bi bi-1-circle-fill        |            **Z1CircleFill**  |
 
 ## Installation
 
@@ -75,6 +76,8 @@ After this, start using the features you're after.
 </FlyoutItem>
 ```
 
+## Icons
+
 ## Prerequisites
 
 * NETStandard.Library (>= 2.0.3)
@@ -83,5 +86,7 @@ After this, start using the features you're after.
 ## License
 
 This project is licenced under the [MIT License][2].
+
+[1]: https://icons.getbootstrap.com/ "Bootstrap Icons"
 
 [2]: https://opensource.org/licenses/mit-license.html "The MIT License | Open Source Initiative"
