@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
-VisualStudioVersion = 16.0.31424.327
+VisualStudioVersion = 16.0.33027.164
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xamarin.Forms.Bootstrap.Icons", "Xamarin.Forms.Bootstrap.Icons.csproj", "{2372C90A-7BA7-4877-A8FB-C22E2604A433}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Xamarin.Forms.Bootstrap.Icons", "Xamarin.Forms.Bootstrap.Icons.csproj", "{2372C90A-7BA7-4877-A8FB-C22E2604A433}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapDemoApp.Android", "..\BootstrapDemoApp\BootstrapDemoApp.Android\BootstrapDemoApp.Android.csproj", "{9086309D-12F3-4E32-9EE6-2D64802C6BF4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootstrapDemoApp", "..\BootstrapDemoApp\BootstrapDemoApp\BootstrapDemoApp.csproj", "{203B5559-41BF-4C63-81C7-1F46AA983C27}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,16 @@ Global
 		{2372C90A-7BA7-4877-A8FB-C22E2604A433}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2372C90A-7BA7-4877-A8FB-C22E2604A433}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2372C90A-7BA7-4877-A8FB-C22E2604A433}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9086309D-12F3-4E32-9EE6-2D64802C6BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9086309D-12F3-4E32-9EE6-2D64802C6BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9086309D-12F3-4E32-9EE6-2D64802C6BF4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{9086309D-12F3-4E32-9EE6-2D64802C6BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9086309D-12F3-4E32-9EE6-2D64802C6BF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9086309D-12F3-4E32-9EE6-2D64802C6BF4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{203B5559-41BF-4C63-81C7-1F46AA983C27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{203B5559-41BF-4C63-81C7-1F46AA983C27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{203B5559-41BF-4C63-81C7-1F46AA983C27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{203B5559-41BF-4C63-81C7-1F46AA983C27}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
